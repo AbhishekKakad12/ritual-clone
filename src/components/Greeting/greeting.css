@@ -1,0 +1,103 @@
+.greetContent {
+  font-family: LL Circular, sans-serif;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  position: absolute;
+  font-weight: bold;
+  top: 23%;
+}
+
+.main_greet {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+em {
+  font-family: Dutch801, serif;
+}
+
+.greetingContent {
+  text-align: center;
+  font-family: LL Circular, sans-serif;
+  font-weight: 500;
+  display: block;
+  position: relative;
+  margin: 0px;
+  font-size: 1.375rem;
+  line-height: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+}
+
+.greet_content {
+  font-size: 4.8rem;
+  color: #142b6f;
+}
+
+.greet_img {
+  margin-left: 2%;
+  width: 96%;
+  position: relative;
+  margin-top: 3%;
+}
+
+.greet_galery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imageList {
+  flex-wrap: nowrap;
+  transform: translateZ(0);
+  width: 70%;
+  overflow: hidden;
+}
+
+.zoom {
+  transition: opacity 0s ease-out 2s, transform 3.2s linear 0s;
+}
+
+.zoom:hover {
+  transform: scale(1.6, 1.6);
+  transform-origin: center;
+}
+@media (max-width: 991.98px) {
+  .greet_content {
+    font-size: 2.8rem;
+  }
+  .greetContent {
+    top: 20%;
+  }
+  .greet_galery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .who_we_are {
+    display: none;
+  }
+  .greet_content {
+    font-size: 25px;
+  }
+  .greetContent {
+    top: 17%;
+  }
+  .greet_img {
+    height: 250px;
+  }
+  .greet_galery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
