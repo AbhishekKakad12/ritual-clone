@@ -141,7 +141,7 @@ const Navbar = () => {
               <li className="nav-item active ">
                 <a
                   className="nav-link who_we_are "
-                  href="google.com"
+                  href="/"
                   style={{ color: "#142b6f" }}
                 >
                   Who We Are
